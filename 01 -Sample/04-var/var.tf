@@ -7,7 +7,7 @@ output "sample" {
 }
 
 variable "sample1" {
-    default = pydi
+    default = 200
 }
 
 output "sample1" {
