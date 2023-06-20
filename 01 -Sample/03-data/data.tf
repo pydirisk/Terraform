@@ -5,5 +5,5 @@ data "aws_ami" "pydi" {
 }
 
 output "aws_id" {
-    value = data.aws_ami.ami.image_id
+    value = data.aws_ami.image_id
 }
