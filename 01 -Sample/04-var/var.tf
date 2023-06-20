@@ -9,3 +9,7 @@ output "sample" {
 variable "sample1" {
     default = pydi
 }
+
+output "sample1" {
+    value = var.sample1
+}
