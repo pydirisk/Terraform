@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terraformpk"
+    bucket = "devopspydi"
     key = "05-s3-state/terraform.tfstate"
     region = "ap-south-1"
   }
