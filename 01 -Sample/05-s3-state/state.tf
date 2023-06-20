@@ -9,8 +9,8 @@ terraform {
 resource "aws_instance" "pydi" {
     ami = "ami-009e65018065f8bd9"
     instance_type = "t2.micro"
-    security_groups = ["sg-0d88b58cf1691ccf3"]
+    vpc_security_group_ids = ["sg-0d88b58cf1691ccf3"]
     tags = {
-        name = "pydi"
-    }  
+        name = "demo"
+    } 
 }
